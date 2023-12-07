@@ -1,3 +1,6 @@
+// LUIS LOPEZ - CHRISTOPHER RODRIGUEZ
+// 1LS242
+
 import * as THREE from 'three';
 
 import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
@@ -31,8 +34,8 @@ function init() {
   hemiLight.position.set(0, 50, 0);
   scene.add(hemiLight);
 
-  const hemiLightHelper = new THREE.HemisphereLightHelper(hemiLight, 10);
-  scene.add(hemiLightHelper);
+  /*   const hemiLightHelper = new THREE.HemisphereLightHelper(hemiLight, 10);
+  scene.add(hemiLightHelper); */
 
   const dirLight = new THREE.DirectionalLight(0xffffff, 3);
   dirLight.color.setHSL(0.1, 1, 0.95);
